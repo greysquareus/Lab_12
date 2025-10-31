@@ -1,0 +1,42 @@
+.square {
+  fill: #ff9999;           
+  stroke: #990000;         
+  stroke-width: 5px;
+}
+
+.rectangle {
+  fill: #99ff99;
+  stroke: #009900;
+  stroke-width: 5px;
+}
+
+.circle {
+  fill: #9999ff;
+  stroke: #000099;
+  stroke-width: 5px;
+}
+
+.ellipse {
+  fill: #ffff99;
+  stroke: #999900;
+  stroke-width: 5px;
+}
+
+@keyframes colorChange {
+  0% {
+    fill: #ffff99;
+    stroke: #999900;
+  }
+  50% {
+    fill: #ffcc00;
+    stroke: #ff6600;
+  }
+  100% {
+    fill: #ffff99;
+    stroke: #999900;
+  }
+}
+
+.animate {
+  animation: colorChange 3s infinite;
+}
